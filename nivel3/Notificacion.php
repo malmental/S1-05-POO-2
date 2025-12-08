@@ -11,7 +11,7 @@ class Notificacion
         $this->destinatatio = $destinatatio;
     }
 
-    // Metodo que sera sobreescrito por todas las class hijas
+    // Metodo que será sobreescrito por todas las class hijas
     public function enviar ()
     {
         echo "Enviando una notificacion 🔔" . PHP_EOL;
