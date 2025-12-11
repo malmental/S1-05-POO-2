@@ -14,7 +14,7 @@ class Notificacion
     // Metodo que será sobreescrito por todas las class hijas
     public function enviar ()
     {
-        echo "Enviando una notificacion 🔔" . PHP_EOL;
+        echo "Enviando una notificacion \m/" . PHP_EOL;
     }
 
     public function getMensaje ()

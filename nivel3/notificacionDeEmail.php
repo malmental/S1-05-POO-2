@@ -15,11 +15,11 @@ class notificacionDeEmail extends Notificacion
     public function enviar()
     {
         echo "" . PHP_EOL;
-        echo "Enviado un e-mail 📩" . PHP_EOL;
+        echo "Enviado un e-mail" . PHP_EOL;
         echo "Para: " . $this->destinatatio . PHP_EOL;
         echo "Asunto: " . $this->asunto . PHP_EOL;
         echo "Mensaje: " . $this->mensaje. PHP_EOL;
-        echo "E-mail enviado correctamente ✅" . PHP_EOL;
+        echo "E-mail enviado correctamente" . PHP_EOL;
     }
 }
 

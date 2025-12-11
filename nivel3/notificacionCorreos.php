@@ -17,12 +17,12 @@ class notificacionCorreos extends Notificacion
     public function enviar()
     {
         echo "" . PHP_EOL;
-        echo "Enviando un correo ordinario 📭" . PHP_EOL;
+        echo "Enviando un correo postal" . PHP_EOL;
         echo "Destinatario: " . $this->destinatatio . PHP_EOL;
         echo "Direccion: " . $this->direccionPostal . PHP_EOL;
         echo "Codigo postal: " . $this->codigoPostal . PHP_EOL;
         echo "Mensaje: " . $this->mensaje . PHP_EOL;
-        echo "Correo ordinario enviado exitosamente, a ver si le llega ... 📫" . PHP_EOL;
+        echo "Correo ordinario enviado exitosamente, a ver si le llega ..." . PHP_EOL;
     }
 }
 

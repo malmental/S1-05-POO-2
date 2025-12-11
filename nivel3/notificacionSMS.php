@@ -15,10 +15,10 @@ class notificacionSMS extends Notificacion
     public function enviar()
     {
         echo "" . PHP_EOL;
-        echo "Enviado un SMS 📲" . PHP_EOL;
+        echo "Enviado un SMS" . PHP_EOL;
         echo "Numero: " . $this->numeroDeTelefono . PHP_EOL;
         echo "Mensaje: " . $this->mensaje . PHP_EOL;
-        echo "SMS enviado correctamente ✅" . PHP_EOL;
+        echo "SMS enviado correctamente" . PHP_EOL;
     }
 }
 
