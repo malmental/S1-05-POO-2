@@ -6,10 +6,14 @@ class Circulo extends figuraGeometrica
 {
     private float $radio;
 
-    public function __construct(string $nombre, float $radio)
+    public function __construct(float $radio)
     {
-        $this->nombre = $nombre;
         $this->radio = $radio;
+    }
+
+    public function getRadio(): float
+    {
+        return $this->radio;
     }
 
     public function calcularArea(): float 
