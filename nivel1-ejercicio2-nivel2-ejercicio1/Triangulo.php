@@ -12,16 +12,6 @@ class Triangulo extends figuraGeometrica
         $this->altura = $altura;
         $this->base = $base;
     }
-
-    public function getAltura(): float
-    {
-        return $this->altura;
-    }
-
-    public function getBase(): float
-    {
-        return $this->base;
-    }
     
     public function calcularArea(): float
     {

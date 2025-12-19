@@ -7,7 +7,6 @@ require_once 'notificacionCorreos.php';
 
 echo "Sistema de Notifiaciones" . PHP_EOL;
 
-// Creamos notificaciones
 $notificacionEmail = new notificacionDeEmail(
     "Tu pedido nº 666 se ha enviado al infierno", 
     "belcebu@correocaliente.ex", 
@@ -27,7 +26,6 @@ $notificacionEmail->enviar();
 $notificacionSMS->enviar();
 $notificacionCorreos->enviar();
 
-// array de notificaciones
 $notificaciones = [
     new notificacionDeEmail("Oferta Especial del Satan", "bongzilla@kmail.ck", "Compre YA!"),
     new notificacionSMS("Tienes mensajes de voz", "123 234 345 45"),

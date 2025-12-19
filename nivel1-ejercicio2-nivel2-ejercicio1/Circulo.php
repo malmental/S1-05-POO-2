@@ -11,11 +11,6 @@ class Circulo extends figuraGeometrica
         $this->radio = $radio;
     }
 
-    public function getRadio(): float
-    {
-        return $this->radio;
-    }
-
     public function calcularArea(): float 
     {
         return round(pi() * pow($this->radio, 2), 2);
